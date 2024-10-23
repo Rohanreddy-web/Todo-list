@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zeyada&display=swap');
+
+.new_div {
+    height: 60px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Zeyada";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: blue;
+    box-shadow: 3px 6px 8px 6px rgba(0, 0, 0, 0.176);
+    background-image: url("i.jpg");
+    transition: transform 3S ease-in-out;
+
+}
+
+.new_div:hover {
+    transform: scale(1.5) translatex(15%);
+}
+
+
+.cont {
+    height: 26vh;
+    width: 30vw;
+    margin: auto;
+    background-image: url("i.jpg");
+    border-radius: 6px;
+    box-shadow: 3px 6px 8px 6px rgba(0, 0, 0, 0.176);
+}
+
+.color {
+    min-height: 30px;
+    min-width: 30px;
+    color: aliceblue;
+    background-color: rgba(30, 15, 168, 0.886);
+}
+
+button {
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 3px;
+    border: 2px solid rgba(188, 47, 47, 0.852);
+}
+
+.out {
+    height: 100vh;
+    width: 40vw;
+    margin: auto;
+    background-image: url("image.jpg");
+    box-shadow: 3px 6px 8px 6px rgba(0, 0, 0, 0.176);
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.626);
+}
+
+.cont>img {
+    height: 30px;
+}
+
+input {
+    border: none;
+    background-image: url(i.jpg);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 14px;
+    font-weight: 560;
+}
